@@ -73,3 +73,11 @@ section#login > #Formulario > p {
     letter-spacing: 1.5px;
     
 }
+
+form >input[input=submit] {
+    display: block;
+    width: 100%;
+    background-color:#49a09d ;
+    color: white;
+    border-radius: 10px;
+}
