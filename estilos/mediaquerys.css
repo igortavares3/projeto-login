@@ -8,6 +8,7 @@
  
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login >#imagens {
@@ -30,13 +31,23 @@
     }
 
       section#login {
-        width: 80vw;
+        width: 991px;
+        height: 350px;
+    }
+
+    div.campo {
+        width: 50%;
+    }
+
+    #submit {
+        width: 50%;
     }
 
     section#login >#imagens {
         float: right;
-        width: 50%;
+        width: 48.5%;
         height: 100%;
+        margin-left: 5px;
         
     }
 
