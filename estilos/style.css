@@ -74,10 +74,59 @@ section#login > #Formulario > p {
     
 }
 
-form >input[input=submit] {
+form > #campo {
     display: block;
-    width: 100%;
+    background-color: #5f2c81;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding-bottom: 7px;
+}
+
+form label {
+    font-variant: small-caps;
+    display: none;
+}
+
+#submit > input[type=submit] {
+    display: block;
     background-color:#49a09d ;
     color: white;
-    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border: none;
+
+}
+
+#submit > input[type=submit]:hover {
+    background-color: #275654;
+}
+
+#submit > a {
+     display: block;
+    background-color: white ;
+    color: #49a09d;
+    border: 1px solid #49a09d  ;
+    width: 100%;
+    height: 35px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-top: 5px;
+
+}
+
+#submit > a:hover {
+    background-color: #49a09d;
+    color: white;
+}
+
+#submit > a > i {
+    font-size: 0.8em;
+    
 }
