@@ -96,6 +96,7 @@ div.campo > input:focus-within {
 }
 
 div.campo > input {
+    position: absolute;
     width: calc(99% - 40px);
     height: 35px;
     background-color: #51b2af;
